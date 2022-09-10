@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class GreetingRouterTest {
 
 	// Spring Boot will create a `WebTestClient` for you,
-	// already configure and ready to issue requests against "localhost:RANDOM_PORT"
+	// already configured and ready to issue requests against "localhost:RANDOM_PORT"
 	@Autowired
 	private WebTestClient webTestClient;
 
